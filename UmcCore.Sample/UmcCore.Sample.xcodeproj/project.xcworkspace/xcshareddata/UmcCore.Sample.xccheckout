@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6434B3E7-8D2A-4FCD-BF30-E4CE09D62509</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UmcCore.Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F30327D9-742E-4C57-AE6F-0ED421922359</key>
+		<string>https://github.com/powerumc/Umc.Core-objc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UmcCore.Sample/UmcCore.Sample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F30327D9-742E-4C57-AE6F-0ED421922359</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/powerumc/Umc.Core-objc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F30327D9-742E-4C57-AE6F-0ED421922359</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F30327D9-742E-4C57-AE6F-0ED421922359</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Umc</string>
+		</dict>
+	</array>
+</dict>
+</plist>
