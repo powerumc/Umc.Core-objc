@@ -12,8 +12,12 @@
 		BEADAA7F1882AFFF00916852 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEADAA7E1882AFFF00916852 /* XCTest.framework */; };
 		BEADAA801882AFFF00916852 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEADAA691882AFFF00916852 /* Cocoa.framework */; };
 		BEADAA831882AFFF00916852 /* UmcCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEADAA661882AFFF00916852 /* UmcCore.framework */; };
-		BEADAA891882AFFF00916852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEADAA871882AFFF00916852 /* InfoPlist.strings */; };
-		BEADAA8B1882AFFF00916852 /* UmcCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEADAA8A1882AFFF00916852 /* UmcCoreTests.m */; };
+		BEADAB181882EC5000916852 /* UMCSourceList.h in Headers */ = {isa = PBXBuildFile; fileRef = BEADAB111882EC5000916852 /* UMCSourceList.h */; };
+		BEADAB191882EC5000916852 /* UMCSourceList.m in Sources */ = {isa = PBXBuildFile; fileRef = BEADAB121882EC5000916852 /* UMCSourceList.m */; };
+		BEADAB1A1882EC5000916852 /* UMCSourceListDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = BEADAB131882EC5000916852 /* UMCSourceListDataSource.h */; };
+		BEADAB1B1882EC5000916852 /* UMCSourceListDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEADAB141882EC5000916852 /* UMCSourceListDelegate.h */; };
+		BEADAB1C1882EC5000916852 /* UMCSourceListItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BEADAB151882EC5000916852 /* UMCSourceListItem.h */; };
+		BEADAB1D1882EC5000916852 /* UMCSourceListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEADAB161882EC5000916852 /* UMCSourceListItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,20 +27,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = BEADAA651882AFFF00916852;
 			remoteInfo = UmcCore;
-		};
-		BEADAAE11882B15100916852 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEADAADC1882B15100916852 /* UmcCore.Sample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEADAA9D1882B0A200916852;
-			remoteInfo = UmcCore.Sample;
-		};
-		BEADAAE31882B15100916852 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEADAADC1882B15100916852 /* UmcCore.Sample.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BEADAABE1882B0A300916852;
-			remoteInfo = UmcCore.SampleTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,10 +41,12 @@
 		BEADAA751882AFFF00916852 /* UmcCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UmcCore-Prefix.pch"; sourceTree = "<group>"; };
 		BEADAA7D1882AFFF00916852 /* UmcCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmcCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEADAA7E1882AFFF00916852 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BEADAA861882AFFF00916852 /* UmcCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UmcCoreTests-Info.plist"; sourceTree = "<group>"; };
-		BEADAA881882AFFF00916852 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BEADAA8A1882AFFF00916852 /* UmcCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UmcCoreTests.m; sourceTree = "<group>"; };
-		BEADAADC1882B15100916852 /* UmcCore.Sample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UmcCore.Sample.xcodeproj; path = ../UmcCore.Sample/UmcCore.Sample.xcodeproj; sourceTree = "<group>"; };
+		BEADAB111882EC5000916852 /* UMCSourceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMCSourceList.h; sourceTree = "<group>"; };
+		BEADAB121882EC5000916852 /* UMCSourceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMCSourceList.m; sourceTree = "<group>"; };
+		BEADAB131882EC5000916852 /* UMCSourceListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMCSourceListDataSource.h; sourceTree = "<group>"; };
+		BEADAB141882EC5000916852 /* UMCSourceListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMCSourceListDelegate.h; sourceTree = "<group>"; };
+		BEADAB151882EC5000916852 /* UMCSourceListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMCSourceListItem.h; sourceTree = "<group>"; };
+		BEADAB161882EC5000916852 /* UMCSourceListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMCSourceListItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				BEADAA6F1882AFFF00916852 /* UmcCore */,
-				BEADAA841882AFFF00916852 /* UmcCoreTests */,
 				BEADAA681882AFFF00916852 /* Frameworks */,
 				BEADAA671882AFFF00916852 /* Products */,
-				BEADAADB1882B13800916852 /* UmcCore.Sample */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +112,7 @@
 		BEADAA6F1882AFFF00916852 /* UmcCore */ = {
 			isa = PBXGroup;
 			children = (
+				BEADAB0F1882EC2200916852 /* Views */,
 				BEADAA701882AFFF00916852 /* Supporting Files */,
 			);
 			path = UmcCore;
@@ -138,24 +129,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BEADAA841882AFFF00916852 /* UmcCoreTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEADAA8A1882AFFF00916852 /* UmcCoreTests.m */,
-				BEADAA851882AFFF00916852 /* Supporting Files */,
-			);
-			path = UmcCoreTests;
-			sourceTree = "<group>";
-		};
-		BEADAA851882AFFF00916852 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BEADAA861882AFFF00916852 /* UmcCoreTests-Info.plist */,
-				BEADAA871882AFFF00916852 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		BEADAAD81882B0FD00916852 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,21 +136,17 @@
 			name = "New Group";
 			sourceTree = "<group>";
 		};
-		BEADAADB1882B13800916852 /* UmcCore.Sample */ = {
+		BEADAB0F1882EC2200916852 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BEADAADC1882B15100916852 /* UmcCore.Sample.xcodeproj */,
+				BEADAB111882EC5000916852 /* UMCSourceList.h */,
+				BEADAB121882EC5000916852 /* UMCSourceList.m */,
+				BEADAB131882EC5000916852 /* UMCSourceListDataSource.h */,
+				BEADAB141882EC5000916852 /* UMCSourceListDelegate.h */,
+				BEADAB151882EC5000916852 /* UMCSourceListItem.h */,
+				BEADAB161882EC5000916852 /* UMCSourceListItem.m */,
 			);
-			name = UmcCore.Sample;
-			sourceTree = "<group>";
-		};
-		BEADAADD1882B15100916852 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BEADAAE21882B15100916852 /* UmcCore.Sample.app */,
-				BEADAAE41882B15100916852 /* UmcCore.SampleTests.xctest */,
-			);
-			name = Products;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +156,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEADAB1A1882EC5000916852 /* UMCSourceListDataSource.h in Headers */,
+				BEADAB181882EC5000916852 /* UMCSourceList.h in Headers */,
+				BEADAB1C1882EC5000916852 /* UMCSourceListItem.h in Headers */,
+				BEADAB1B1882EC5000916852 /* UMCSourceListDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +226,6 @@
 			mainGroup = BEADAA5C1882AFFF00916852;
 			productRefGroup = BEADAA671882AFFF00916852 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = BEADAADD1882B15100916852 /* Products */;
-					ProjectRef = BEADAADC1882B15100916852 /* UmcCore.Sample.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				BEADAA651882AFFF00916852 /* UmcCore */,
@@ -266,23 +233,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		BEADAAE21882B15100916852 /* UmcCore.Sample.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = UmcCore.Sample.app;
-			remoteRef = BEADAAE11882B15100916852 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		BEADAAE41882B15100916852 /* UmcCore.SampleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UmcCore.SampleTests.xctest;
-			remoteRef = BEADAAE31882B15100916852 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BEADAA641882AFFF00916852 /* Resources */ = {
@@ -297,7 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEADAA891882AFFF00916852 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEADAB191882EC5000916852 /* UMCSourceList.m in Sources */,
+				BEADAB1D1882EC5000916852 /* UMCSourceListItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEADAA8B1882AFFF00916852 /* UmcCoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,14 +284,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				BEADAA731882AFFF00916852 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BEADAA871882AFFF00916852 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEADAA881882AFFF00916852 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
